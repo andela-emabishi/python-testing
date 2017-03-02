@@ -4,4 +4,5 @@ from src.fibonacci import Math
 
 class MathTest(unittest.TestCase):
     def test_addition(self):
-        self.assertEqual(Math.addition(3, 4), 7)
+        # Make test fail
+        self.assertEqual(Math.addition(3, 4), 8)
